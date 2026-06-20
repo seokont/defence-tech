@@ -23,6 +23,14 @@ export const metadata: Metadata = {
     "UKRLAW консалтинг",
     "інвестиційна карта фінансування",
   ],
+  icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png", sizes: "32x32" },
+      { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: { url: "/apple-icon.png", sizes: "180x180" },
+    shortcut: "/icon.png",
+  },
   openGraph: {
     title: "Інвестиції та гранти для defence-tech | UKRLAW",
     description:

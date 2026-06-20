@@ -73,6 +73,28 @@ export default function Navbar() {
 
           {/* Desktop nav */}
           <nav style={{ display: "flex", alignItems: "center", gap: "0.25rem" }} className="hidden-mobile">
+            <a
+              href="tel:+380679177889"
+              style={{
+                padding: "0.5rem 0.875rem",
+                color: "#C9A84C",
+                fontSize: "0.875rem",
+                fontWeight: 700,
+                textDecoration: "none",
+                borderRadius: "6px",
+                fontFamily: "Lato, sans-serif",
+                letterSpacing: "0.02em",
+                transition: "background 0.2s",
+              }}
+              onMouseEnter={(e) => {
+                (e.target as HTMLElement).style.backgroundColor = "rgba(201,168,76,0.08)";
+              }}
+              onMouseLeave={(e) => {
+                (e.target as HTMLElement).style.backgroundColor = "transparent";
+              }}
+            >
+              +380 67 917 7889
+            </a>
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -158,6 +180,22 @@ export default function Navbar() {
               backdropFilter: "blur(16px)",
             }}
           >
+            <a
+              href="tel:+380679177889"
+              onClick={() => setMenuOpen(false)}
+              style={{
+                padding: "0.75rem 1rem",
+                color: "#C9A84C",
+                fontSize: "1.05rem",
+                fontWeight: 700,
+                textDecoration: "none",
+                borderRadius: "6px",
+                fontFamily: "Lato, sans-serif",
+                letterSpacing: "0.02em",
+              }}
+            >
+              +380 67 917 7889
+            </a>
             {navLinks.map((link) => (
               <a
                 key={link.href}

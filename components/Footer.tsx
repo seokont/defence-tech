@@ -56,7 +56,7 @@ export default function Footer() {
             <div style={{ display: "flex", alignItems: "center", gap: "0.625rem", marginBottom: "1rem" }}>
               <Image
                 src="/logo-transparent.png"
-                alt="UKRLAW УКРГОСКАПІТАЛ"
+                alt="UKRLAW"
                 width={44}
                 height={44}
                 style={{
@@ -77,7 +77,7 @@ export default function Footer() {
                   UKRLAW
                 </div>
                 <div style={{ fontSize: "0.6rem", color: "#C9A84C", letterSpacing: "0.08em", textTransform: "uppercase" }}>
-                  УКРГОСКАПІТАЛ
+                  STRATEGIC LEGAL CENTER
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function Footer() {
               Юридично-фінансовий консалтинг для українських defence-tech та dual-use компаній. Гранти, інвестиції, міжнародне структурування.
             </p>
             {/* Contact info */}
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.625rem" }}>
+            {/* <div style={{ display: "flex", flexDirection: "column", gap: "0.625rem" }}>
               <a
                 href="mailto:info@ukrlaw.ua"
                 style={{
@@ -131,7 +131,7 @@ export default function Footer() {
                 <MessageSquare size={14} />
                 @ukrlaw_capital
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Links */}
