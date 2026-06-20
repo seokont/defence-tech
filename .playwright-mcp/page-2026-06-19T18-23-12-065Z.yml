@@ -1,0 +1,822 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "UKRLAW УКРГОСКАПІТАЛ" [ref=e5] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e7]
+        - generic [ref=e9]:
+          - generic [ref=e10]: UKRLAW
+          - generic [ref=e11]: УКРГОСКАПІТАЛ
+      - navigation [ref=e12]:
+        - link "Можливості" [ref=e13] [cursor=pointer]:
+          - /url: "#opportunities"
+        - link "Послуги" [ref=e14] [cursor=pointer]:
+          - /url: "#services"
+        - link "Підхід" [ref=e15] [cursor=pointer]:
+          - /url: "#approach"
+        - link "FAQ" [ref=e16] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Контакт" [ref=e17] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Отримати консультацію" [ref=e18] [cursor=pointer]:
+          - /url: "#contact"
+  - main [ref=e19]:
+    - generic [ref=e22]:
+      - generic [ref=e24]: UKRLAW / УКРГОСКАПІТАЛ — Юридично-фінансовий консалтинг
+      - heading "Залучайте гранти, інвестиції та міжнародний капітал для defence-tech і dual-use проєктів" [level=1] [ref=e26]
+      - paragraph [ref=e27]: Допомагаємо українським технологічним компаніям знайти правильні програми фінансування, підготувати документи та структурувати вихід на EU / UK / US капітал.
+      - generic [ref=e28]:
+        - link "Отримати консультацію" [ref=e29] [cursor=pointer]:
+          - /url: "#contact"
+          - text: Отримати консультацію
+          - img [ref=e30]
+        - link "Замовити Investment Mapping" [ref=e32] [cursor=pointer]:
+          - /url: "#contact"
+          - img [ref=e33]
+          - text: Замовити Investment Mapping
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]: 30–60
+          - generic [ref=e41]: потенційних джерел фінансування на компанію
+        - generic [ref=e42]:
+          - generic [ref=e43]: $49.1B
+          - generic [ref=e44]: залучено у глобальний defence-tech у 2025
+        - generic [ref=e45]:
+          - generic [ref=e46]: 1 500+
+          - generic [ref=e47]: компаній у екосистемі Brave1
+        - generic [ref=e48]:
+          - generic [ref=e49]: €8.7B
+          - generic [ref=e50]: European defence-tech інвестиції 2025
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]: Чому саме зараз
+        - heading "2026 рік — вікно можливостей для українського defence-tech" [level=2] [ref=e56]
+        - paragraph [ref=e57]: Вперше за новітню історію для однієї компанії одночасно відкриті три паралельні канали фінансування. Кожен має свої дедлайни, вимоги та можливості. Без правильної карти — ризик втратити доступ до капіталу.
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - img [ref=e61]
+          - heading "Українські програми" [level=3] [ref=e63]
+          - list [ref=e64]:
+            - listitem [ref=e65]:
+              - generic [ref=e66]: ▸
+              - text: Brave1 — гранти від 500 тис. до 900 млн грн
+            - listitem [ref=e67]:
+              - generic [ref=e68]: ▸
+              - text: Defence City — спеціальний регуляторний режим
+            - listitem [ref=e69]:
+              - generic [ref=e70]: ▸
+              - text: DOT-Chain — ланцюги оборонних постачальників
+            - listitem [ref=e71]:
+              - generic [ref=e72]: ▸
+              - text: 5%-кредитування ОПК
+          - generic [ref=e73]: Понад 2,2 млрд грн видано за два роки
+        - generic [ref=e74]:
+          - img [ref=e76]
+          - heading "EU / NATO / Міжнародні" [level=3] [ref=e79]
+          - list [ref=e80]:
+            - listitem [ref=e81]:
+              - generic [ref=e82]: ▸
+              - text: EDIP USI — для українських юросіб
+            - listitem [ref=e83]:
+              - generic [ref=e84]: ▸
+              - text: EDF, Horizon Europe, EIC
+            - listitem [ref=e85]:
+              - generic [ref=e86]: ▸
+              - text: NATO DIANA, NATO Innovation Fund
+            - listitem [ref=e87]:
+              - generic [ref=e88]: ▸
+              - text: UK IFU, DFC URIF ($150M+)
+          - generic [ref=e89]: Відкрито спеціальні треки для України
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - heading "Приватний капітал" [level=3] [ref=e95]
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - generic [ref=e98]: ▸
+              - text: VC-фонди defence-tech напряму
+            - listitem [ref=e99]:
+              - generic [ref=e100]: ▸
+              - text: Family offices та strategic investors
+            - listitem [ref=e101]:
+              - generic [ref=e102]: ▸
+              - text: Defence-focused funds (EU, US, UK)
+            - listitem [ref=e103]:
+              - generic [ref=e104]: ▸
+              - text: Series A / strategic investment
+          - generic [ref=e105]: $129 млн в українські стартапи у 2025
+    - main "UKRLAW Defence Capital — шлях до фінансування" [ref=e106]:
+      - region "Вікно можливостей 2026" [ref=e107]:
+        - generic [ref=e108]:
+          - paragraph [ref=e109]: 01 — Вікно можливостей
+          - separator
+          - heading "2026 Нові Правила" [level=2] [ref=e111]:
+            - text: "2026"
+            - text: Нові
+            - text: Правила
+          - separator
+          - paragraph [ref=e112]: Вперше за новітню історію для українських defence-tech компаній одночасно відкриті три паралельні канали фінансування — внутрішній, міжнародний та приватний.
+          - separator
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - paragraph [ref=e115]: $49.1B
+              - paragraph [ref=e116]: Глобальний defence-tech ринок у 2025 році
+            - generic [ref=e117]:
+              - paragraph [ref=e118]: €8.7B
+              - paragraph [ref=e119]: Інвестиції в European defence-tech
+            - generic [ref=e120]:
+              - paragraph [ref=e121]: $129M
+              - paragraph [ref=e122]: У 50+ українських стартапів у 2025
+      - region "Проблема доступу до фінансування" [ref=e123]:
+        - generic [ref=e124]:
+          - paragraph [ref=e125]: 02 — Виклик
+          - separator
+          - heading "Без Карти — Ризик" [level=2] [ref=e127]:
+            - text: Без
+            - text: Карти —
+            - text: Ризик
+          - separator
+          - paragraph [ref=e128]: На одну компанію може припадати 30–60 потенційних інструментів фінансування. Частина сумісна, частина конфліктує. Без системного аналізу — ви рухаєтесь наосліп.
+          - separator
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - paragraph [ref=e131]: Дедлайни
+              - paragraph [ref=e132]: Кожна програма має своє вікно подачі. Пропустив — чекай наступного циклу.
+            - generic [ref=e133]:
+              - paragraph [ref=e134]: Структура
+              - paragraph [ref=e135]: ITAR, EAR, FOCI, CFC — compliance-вимоги можуть закрити доступ до цілих каналів.
+            - generic [ref=e136]:
+              - paragraph [ref=e137]: Сумісність
+              - paragraph [ref=e138]: Деякі гранти та VC-раунди несумісні між собою. Неправильна комбінація — втрата обох.
+          - separator
+          - paragraph [ref=e139]: Більшість компаній не знають, з чого починати. І починають не звідти.
+      - region "Системний підхід UKRLAW" [ref=e140]:
+        - generic [ref=e141]:
+          - paragraph [ref=e142]: 03 — Наш підхід
+          - separator
+          - heading "Система. Не Випадок." [level=2] [ref=e144]:
+            - text: Система.
+            - text: Не
+            - text: Випадок.
+          - separator
+          - paragraph [ref=e145]: Ми будуємо pipeline фінансування, а не одну випадкову заявку. П'ять кроків — від діагностики до закритого раунду.
+          - separator
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - paragraph [ref=e148]: 01 — Діагностика
+              - paragraph [ref=e149]: Аудит технології, стадії, traction та структури власності.
+            - generic [ref=e150]:
+              - paragraph [ref=e151]: 02 — Scoring
+              - paragraph [ref=e152]: Аналіз 30–60 програм. Сумісність, пріоритети, дедлайни.
+            - generic [ref=e153]:
+              - paragraph [ref=e154]: 03 — Roadmap
+              - paragraph [ref=e155]: Персональна карта фінансування на 12 місяців.
+          - separator
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - paragraph [ref=e158]: 04 — Документи
+              - paragraph [ref=e159]: Pitch deck, financial model, data room, grant applications.
+            - generic [ref=e160]:
+              - paragraph [ref=e161]: 05 — Супровід
+              - paragraph [ref=e162]: Подача, переговори, due diligence, структурування угод.
+      - region "Результат та заклик до дії" [ref=e163]:
+        - generic [ref=e164]:
+          - paragraph [ref=e165]: 04 — Результат
+          - separator
+          - heading "Готові. Зростаємо. Залучаємо." [level=2] [ref=e167]:
+            - text: Готові.
+            - text: Зростаємо.
+            - text: Залучаємо.
+          - separator
+          - paragraph [ref=e168]: Після роботи з нами у вас є не просто поради — є конкретні матеріали, карта та roadmap, з якими можна рухатися.
+          - separator
+          - generic [ref=e169]:
+            - generic [ref=e170]:
+              - paragraph [ref=e171]: Карта фінансування
+              - paragraph [ref=e172]: Персональний scoring із 30–60 програм, пріоритетами та дедлайнами.
+            - generic [ref=e173]:
+              - paragraph [ref=e174]: Investor-ready
+              - paragraph [ref=e175]: Pitch deck, financial model, data room, IP-аудит — все готове.
+            - generic [ref=e176]:
+              - paragraph [ref=e177]: Структура
+              - paragraph [ref=e178]: EU / UK / US entity, Defence City, ITAR/EAR — compliance без ризиків.
+          - separator
+          - generic [ref=e179]:
+            - link "Замовити Investment Mapping →" [ref=e180] [cursor=pointer]:
+              - /url: "#contact"
+            - paragraph [ref=e181]: Відповідаємо протягом одного робочого дня
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - generic [ref=e185]: Ключова проблема
+        - heading "Фінансування є. Але доступ до нього — складний." [level=2] [ref=e186]
+        - paragraph [ref=e187]: Без персональної карти фінансування компанія може втратити час, дедлайни та реальний доступ до капіталу.
+      - generic [ref=e188]:
+        - generic [ref=e190]:
+          - img [ref=e192]
+          - generic [ref=e194]:
+            - heading "Немає карти фінансування" [level=3] [ref=e195]
+            - paragraph [ref=e196]: 30–60 потенційних інструментів на одну компанію. Частина сумісна, частина конфліктує. Без систематизованого аналізу — рух наосліп.
+        - generic [ref=e198]:
+          - img [ref=e200]
+          - generic [ref=e205]:
+            - heading "Відсутні готові матеріали" [level=3] [ref=e206]
+            - paragraph [ref=e207]: Гранти та інвестори вимагають pitch deck, financial model, data room, IP-аудит. Більшість компаній не готові до першого дзвінка.
+        - generic [ref=e209]:
+          - img [ref=e211]
+          - generic [ref=e215]:
+            - heading "Неправильна програма або напрям" [level=3] [ref=e216]
+            - paragraph [ref=e217]: "Кожна програма має специфічні критерії: технологія, стадія, структура власності, юрисдикція. Неправильна подача — витрачений час і ресурси."
+        - generic [ref=e219]:
+          - img [ref=e221]
+          - generic [ref=e224]:
+            - heading "Ризики структури та compliance" [level=3] [ref=e225]
+            - paragraph [ref=e226]: Вимоги щодо структури власності, IP, export control (ITAR/EAR), FOCI, CFC та санкційних ризиків можуть заблокувати участь у міжнародних програмах.
+        - generic [ref=e228]:
+          - img [ref=e230]
+          - generic [ref=e232]:
+            - heading "Незрозумілість EU / UK / US структури" [level=3] [ref=e233]
+            - paragraph [ref=e234]: Багато програм вимагають наявності юридичної особи в ЄС, Великій Британії або США. Відсутність правильної структури закриває доступ до цілих каналів капіталу.
+        - generic [ref=e236]:
+          - img [ref=e238]
+          - generic [ref=e241]:
+            - heading "Ризик втратити дедлайни" [level=3] [ref=e242]
+            - paragraph [ref=e243]: EDIP, EDF, EIC, NATO DIANA — кожна програма має конкретні вікна подачі. Пропуск дедлайну означає очікування наступного циклу або повну втрату можливості.
+    - generic [ref=e245]:
+      - generic [ref=e246]:
+        - generic [ref=e247]: Карта фінансування
+        - heading "12 каналів фінансування для defence-tech компаній" [level=2] [ref=e248]
+        - paragraph [ref=e249]: На одну компанію може припадати 30–60 потенційних інструментів. Ми аналізуємо сумісність, пріоритети та дедлайни для вашої конкретної ситуації.
+      - generic [ref=e250]:
+        - generic [ref=e251]:
+          - generic [ref=e252]:
+            - generic [ref=e253]: UA
+            - generic [ref=e254]: Brave1
+          - generic [ref=e255]: Державна грантова програма
+          - paragraph [ref=e256]: Ключова вхідна точка для більшості компаній. Спецконкурси до 100–150 млн грн, програми масштабування до 900 млн грн. Більше 600 грантів видано.
+          - generic [ref=e257]: 500 тис. — 900 млн грн
+        - generic [ref=e258]:
+          - generic [ref=e259]:
+            - generic [ref=e260]: UA
+            - generic [ref=e261]: Defence City
+          - generic [ref=e262]: Регуляторний режим
+          - paragraph [ref=e263]: Спеціальний режим для структурування бізнесу оборонних компаній, реінвестування прибутку та доступу до пільгових умов.
+          - generic [ref=e264]: Податкові преференції
+        - generic [ref=e265]:
+          - generic [ref=e266]:
+            - generic [ref=e267]: UA
+            - generic [ref=e268]: DOT-Chain
+          - generic [ref=e269]: Ланцюг постачань ОПК
+          - paragraph [ref=e270]: Інструмент для інтеграції компаній у ланцюги постачань оборонно-промислового комплексу України.
+          - generic [ref=e271]: Контракти та доступ до держзамовника
+        - generic [ref=e272]:
+          - generic [ref=e273]:
+            - generic [ref=e274]: UA
+            - generic [ref=e275]: 5%-кредитування ОПК
+          - generic [ref=e276]: Пільгове фінансування
+          - paragraph [ref=e277]: Доступ до кредитних ресурсів за зниженою ставкою для виробників оборонних товарів і технологій.
+          - generic [ref=e278]: Пільгові кредити
+        - generic [ref=e279]:
+          - generic [ref=e280]:
+            - generic [ref=e281]: EU
+            - generic [ref=e282]: EDIP / USI
+          - generic [ref=e283]: European Defence Industry Programme
+          - paragraph [ref=e284]: Окремий канал ЄС для українських компаній у напрямах UAS/counter-UAS, missiles, ammunition та інших оборонних технологій.
+          - generic [ref=e285]: € Гранти та контракти
+        - generic [ref=e286]:
+          - generic [ref=e287]:
+            - generic [ref=e288]: EU
+            - generic [ref=e289]: BraveTech EU
+          - generic [ref=e290]: Спільна EU-UA програма
+          - paragraph [ref=e291]: Міст між українськими defence-tech рішеннями та євроспільнотою. Прискорений доступ для компаній із підтвердженою валідацією.
+          - generic [ref=e292]: € Гранти + доступ до ринку
+        - generic [ref=e293]:
+          - generic [ref=e294]:
+            - generic [ref=e295]: EU
+            - generic [ref=e296]: EDF
+          - generic [ref=e297]: European Defence Fund
+          - paragraph [ref=e298]: Найбільший оборонний грантовий фонд ЄС. Вимагає участі у консорціумі з EU-компаніями. Відкритий для UkR компаній із EU-структурою.
+          - generic [ref=e299]: € до 200 млн на проєкт
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: EU
+            - generic [ref=e303]: Horizon Europe / EIC
+          - generic [ref=e304]: EU R&D та інновації
+          - paragraph [ref=e305]: EIC Accelerator відкритий для Ukrainian eligible companies. Підходить для dual-use технологій з комерційним потенціалом.
+          - generic [ref=e306]: € до 2,5 млн (EIC Accelerator)
+        - generic [ref=e307]:
+          - generic [ref=e308]:
+            - generic [ref=e309]: US
+            - generic [ref=e310]: DFC URIF
+          - generic [ref=e311]: US International Development Finance
+          - paragraph [ref=e312]: Канал equity та debt-фінансування через US DFC для українських компаній подвійного використання. Стартовий капітал $150 млн.
+          - generic [ref=e313]: $150M+ equity / debt
+        - generic [ref=e314]:
+          - generic [ref=e315]:
+            - generic [ref=e316]: UK
+            - generic [ref=e317]: UK IFU
+          - generic [ref=e318]: UK International Financing
+          - paragraph [ref=e319]: "Прямий канал через Defence Sourcing Portal. Пріоритетні напрями: FPV/strike drones, EW, mine clearance, ISR."
+          - generic [ref=e320]: £ Direct investment
+        - generic [ref=e321]:
+          - generic [ref=e322]:
+            - generic [ref=e323]: NATO
+            - generic [ref=e324]: NATO DIANA / NIF
+          - generic [ref=e325]: DIANA Accelerator + Innovation Fund
+          - paragraph [ref=e326]: DIANA надає доступ до акселераційних програм та полігонів НАТО. NATO Innovation Fund — €1 млрд для deep-tech компаній.
+          - generic [ref=e327]: € + доступ до полігонів НАТО
+        - generic [ref=e328]:
+          - generic [ref=e329]:
+            - generic [ref=e330]: VC
+            - generic [ref=e331]: VC / Strategic Investors
+          - generic [ref=e332]: Приватний капітал
+          - paragraph [ref=e333]: "Глобальний defence-tech ринок: $49.1 млрд у 2025. Україна: $129 млн у 50+ стартапів. Активні фонди: UA, EU, US, UK."
+          - generic [ref=e334]: $1M — $50M+
+    - generic [ref=e336]:
+      - generic [ref=e337]:
+        - generic [ref=e338]: Наш підхід
+        - heading "Від діагностики до залучення капіталу — системно" [level=2] [ref=e339]
+        - paragraph [ref=e340]: Ми будуємо pipeline фінансування, а не одну випадкову заявку. Кожен крок логічно пов'язаний із результатом.
+      - generic [ref=e341]:
+        - generic [ref=e342]:
+          - generic [ref=e344]: "01"
+          - generic [ref=e345]:
+            - heading "Діагностика компанії" [level=3] [ref=e346]
+            - paragraph [ref=e347]: Аналізуємо технологію, стадію розвитку, traction, структуру власності, наявність контрактів або пілотів із Силами оборони. Оцінюємо поточну готовність до різних програм фінансування.
+            - generic [ref=e348]:
+              - generic [ref=e349]: Профіль компанії
+              - generic [ref=e350]: Gap-аналіз
+              - generic [ref=e351]: Список питань для уточнення
+        - generic [ref=e352]:
+          - generic [ref=e354]: "02"
+          - generic [ref=e355]:
+            - heading "Scoring доступних програм" [level=3] [ref=e356]
+            - paragraph [ref=e357]: "Аналізуємо 30–60 потенційних інструментів. Перевіряємо сумісність: які програми можна комбінувати, а які конфліктують між собою. Ранжуємо за пріоритетом та реалістичністю."
+            - generic [ref=e358]:
+              - generic [ref=e359]: Scoring matrix
+              - generic [ref=e360]: Список сумісних програм
+              - generic [ref=e361]: Карта конфліктів
+        - generic [ref=e362]:
+          - generic [ref=e364]: "03"
+          - generic [ref=e365]:
+            - heading "Investment / Grant Roadmap" [level=3] [ref=e366]
+            - paragraph [ref=e367]: "Готуємо дорожню карту фінансування на 12 місяців: які програми подавати зараз, які потребують підготовки, які дедлайни критичні, яка структура потрібна для кожного напряму."
+            - generic [ref=e368]:
+              - generic [ref=e369]: Roadmap 12 місяців
+              - generic [ref=e370]: Список дедлайнів
+              - generic [ref=e371]: Рекомендована структура
+        - generic [ref=e372]:
+          - generic [ref=e374]: "04"
+          - generic [ref=e375]:
+            - heading "Підготовка документів" [level=3] [ref=e376]
+            - paragraph [ref=e377]: "Готуємо або допомагаємо підготувати всі необхідні матеріали: від pitch deck і financial model до grant application і data room. Кожен документ адаптований під конкретну аудиторію."
+            - generic [ref=e378]:
+              - generic [ref=e379]: Pitch deck
+              - generic [ref=e380]: Financial model
+              - generic [ref=e381]: Data room
+              - generic [ref=e382]: Grant applications
+        - generic [ref=e383]:
+          - generic [ref=e385]: "05"
+          - generic [ref=e386]:
+            - heading "Супровід подачі та переговорів" [level=3] [ref=e387]
+            - paragraph [ref=e388]: Супроводжуємо процес подачі в грантові програми, підготовку до переговорів з інвесторами та структурування партнерств. Допомагаємо пройти due diligence та питання compliance.
+            - generic [ref=e389]:
+              - generic [ref=e390]: Супровід подачі
+              - generic [ref=e391]: Підготовка до investor meetings
+              - generic [ref=e392]: Структурування угод
+    - generic [ref=e394]:
+      - generic [ref=e395]:
+        - generic [ref=e396]: Послуги
+        - heading "Три рівні підтримки — під вашу стадію" [level=2] [ref=e397]
+        - paragraph [ref=e398]: Кожен рівень побудований під конкретну стадію готовності компанії до залучення капіталу.
+      - generic [ref=e399]:
+        - generic [ref=e400]:
+          - generic [ref=e401]: Стартова точка
+          - generic [ref=e402]: Tier 1
+          - heading "Investment & Grant Mapping" [level=3] [ref=e403]
+          - paragraph [ref=e404]: "Для кого: Ранні стадії, Brave1-резиденти, компанії без чіткого напряму"
+          - list [ref=e405]:
+            - listitem [ref=e406]:
+              - generic [ref=e407]: ✓
+              - text: Аудит компанії та технологічного профілю
+            - listitem [ref=e408]:
+              - generic [ref=e409]: ✓
+              - text: Аналіз стадії, traction та ринкового потенціалу
+            - listitem [ref=e410]:
+              - generic [ref=e411]: ✓
+              - text: Підбір та scoring програм фінансування
+            - listitem [ref=e412]:
+              - generic [ref=e413]: ✓
+              - text: Scoring matrix із пріоритетами
+            - listitem [ref=e414]:
+              - generic [ref=e415]: ✓
+              - text: Roadmap на 12 місяців
+            - listitem [ref=e416]:
+              - generic [ref=e417]: ✓
+              - text: Список швидких можливостей і найближчих дедлайнів
+          - generic [ref=e418]:
+            - generic [ref=e419]: Результат
+            - paragraph [ref=e420]: Компанія отримує персональну карту фінансування та розуміє, куди рухатися і з чого починати.
+          - link "Замовити Tier 1" [ref=e421] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Замовити Tier 1
+            - img [ref=e422]
+        - generic [ref=e424]:
+          - generic [ref=e425]: Найпопулярніший
+          - generic [ref=e426]: Tier 2
+          - heading "Capital Raise Preparation" [level=3] [ref=e427]
+          - paragraph [ref=e428]: "Для кого: Компанії з traction, контрактами, пілотами або продажами"
+          - list [ref=e429]:
+            - listitem [ref=e430]:
+              - generic [ref=e431]: ✓
+              - text: Pitch deck для інвесторів і грантових програм
+            - listitem [ref=e432]:
+              - generic [ref=e433]: ✓
+              - text: Financial model (3–5 років)
+            - listitem [ref=e434]:
+              - generic [ref=e435]: ✓
+              - text: Investor memo і executive summary
+            - listitem [ref=e436]:
+              - generic [ref=e437]: ✓
+              - text: Підготовка data room
+            - listitem [ref=e438]:
+              - generic [ref=e439]: ✓
+              - text: IP-аудит та compliance review
+            - listitem [ref=e440]:
+              - generic [ref=e441]: ✓
+              - text: Grant applications (Brave1, EDIP, EIC та ін.)
+            - listitem [ref=e442]:
+              - generic [ref=e443]: ✓
+              - text: Підготовка до Series A / strategic investment
+          - generic [ref=e444]:
+            - generic [ref=e445]: Результат
+            - paragraph [ref=e446]: Компанія стає investor-ready та готова до переговорів із фондами, грантовими програмами та стратегічними інвесторами.
+          - link "Замовити Tier 2" [ref=e447] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Замовити Tier 2
+            - img [ref=e448]
+        - generic [ref=e450]:
+          - generic [ref=e451]: Scale-up
+          - generic [ref=e452]: Tier 3
+          - heading "International Structuring & Defence Capital Access" [level=3] [ref=e453]
+          - paragraph [ref=e454]: "Для кого: Компанії, що виходять на EU / UK / US капітал"
+          - list [ref=e455]:
+            - listitem [ref=e456]:
+              - generic [ref=e457]: ✓
+              - text: Структурування EU / UK / US legal entity
+            - listitem [ref=e458]:
+              - generic [ref=e459]: ✓
+              - text: Defence City setup та оптимізація
+            - listitem [ref=e460]:
+              - generic [ref=e461]: ✓
+              - text: EU-front company або Delaware C-corp за потреби
+            - listitem [ref=e462]:
+              - generic [ref=e463]: ✓
+              - text: ITAR / EAR / FOCI risk mapping
+            - listitem [ref=e464]:
+              - generic [ref=e465]: ✓
+              - text: CFC / tax / ownership analysis
+            - listitem [ref=e466]:
+              - generic [ref=e467]: ✓
+              - text: Супровід міжнародних партнерств та M&A prep
+          - generic [ref=e468]:
+            - generic [ref=e469]: Результат
+            - paragraph [ref=e470]: Компанія отримує правову структуру, оптимізовану для вимог міжнародного капіталу, та усуває compliance-ризики.
+          - link "Замовити Tier 3" [ref=e471] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Замовити Tier 3
+            - img [ref=e472]
+    - generic [ref=e475]:
+      - generic [ref=e476]:
+        - generic [ref=e477]: Спеціалізовані пакети
+        - heading "Точкові рішення під конкретний напрям" [level=2] [ref=e478]
+        - paragraph [ref=e479]: Якщо ваша компанія вже знає, яка програма або інструмент їй потрібен — ми підготуємо точковий пакет під конкретне завдання.
+      - generic [ref=e480]:
+        - generic [ref=e481]:
+          - generic [ref=e482]:
+            - img [ref=e484]
+            - generic [ref=e488]: UA Regulatory
+          - heading "Defence City Application Pack" [level=3] [ref=e489]
+          - paragraph [ref=e490]: "Повний пакет документів для реєстрації та роботи в режимі Defence City: юридична структура, заяви, регуляторний mapping та рекомендації щодо оптимізації."
+          - link "Дізнатися більше →" [ref=e491] [cursor=pointer]:
+            - /url: "#contact"
+        - generic [ref=e492]:
+          - generic [ref=e493]:
+            - img [ref=e495]
+            - generic [ref=e499]: EU Grant
+          - heading "EDIP USI Consortium Builder" [level=3] [ref=e500]
+          - paragraph [ref=e501]: Допомагаємо знайти EU-партнерів для консорціуму EDIP/USI, перевірити eligibility, підготувати consortium agreement та заявку під конкретний call.
+          - link "Дізнатися більше →" [ref=e502] [cursor=pointer]:
+            - /url: "#contact"
+        - generic [ref=e503]:
+          - generic [ref=e504]:
+            - img [ref=e506]
+            - generic [ref=e510]: NATO
+          - heading "NATO Track Pack" [level=3] [ref=e511]
+          - paragraph [ref=e512]: "Підготовка до DIANA Accelerator та NATO Innovation Fund: заявка, pitch, технічне досьє, відповідність критеріям deep-tech / dual-use / AI."
+          - link "Дізнатися більше →" [ref=e513] [cursor=pointer]:
+            - /url: "#contact"
+        - generic [ref=e514]:
+          - generic [ref=e515]:
+            - img [ref=e517]
+            - generic [ref=e521]: US Capital
+          - heading "US Defense Tech Entry Pack" [level=3] [ref=e522]
+          - paragraph [ref=e523]: Mapping DFC URIF, USAID, DOD-програм для Ukraine. Аналіз ITAR/EAR ризиків, FOCI compliance, рекомендована US-структура для доступу до US капіталу.
+          - link "Дізнатися більше →" [ref=e524] [cursor=pointer]:
+            - /url: "#contact"
+        - generic [ref=e525]:
+          - generic [ref=e526]:
+            - img [ref=e528]
+            - generic [ref=e532]: Audit
+          - heading "Grant Readiness Audit" [level=3] [ref=e533]
+          - paragraph [ref=e534]: "Швидка оцінка готовності компанії до конкретної грантової програми. Висновок: чи відповідає компанія вимогам, що потрібно підготувати, чи варто подаватися."
+          - link "Дізнатися більше →" [ref=e535] [cursor=pointer]:
+            - /url: "#contact"
+        - generic [ref=e536]:
+          - generic [ref=e537]:
+            - img [ref=e539]
+            - generic [ref=e543]: VC Ready
+          - heading "Investor Data Room Pack" [level=3] [ref=e544]
+          - paragraph [ref=e545]: "Підготовка повного data room під стандарти VC та private equity: корпоративні документи, IP, контракти, фінансова звітність, KPI dashboard."
+          - link "Дізнатися більше →" [ref=e546] [cursor=pointer]:
+            - /url: "#contact"
+        - generic [ref=e547]:
+          - generic [ref=e548]:
+            - img [ref=e550]
+            - generic [ref=e554]: Fundraising
+          - heading "Pitch Deck & Financial Model Pack" [level=3] [ref=e555]
+          - paragraph [ref=e556]: "Розробка investor-ready pitch deck (12–15 слайдів) та фінансової моделі (3–5 років) під конкретну аудиторію: VC, strategic investor, грантовий комітет."
+          - link "Дізнатися більше →" [ref=e557] [cursor=pointer]:
+            - /url: "#contact"
+    - generic [ref=e559]:
+      - generic [ref=e560]:
+        - generic [ref=e561]: Для кого
+        - heading "Ми працюємо з провідними сегментами defence-tech" [level=2] [ref=e562]
+        - paragraph [ref=e563]: Якщо ваша компанія розробляє, виробляє або постачає технологічні рішення для потреб оборони — ми знаємо вашу екосистему.
+      - generic [ref=e564]:
+        - generic [ref=e565]:
+          - img [ref=e567]
+          - generic [ref=e569]:
+            - heading "Brave1-резиденти" [level=3] [ref=e570]
+            - paragraph [ref=e571]: Компанії з підтвердженим статусом або поточними заявками на гранти Brave1
+        - generic [ref=e572]:
+          - img [ref=e574]
+          - generic [ref=e579]:
+            - heading "БПЛА / USV / UGV" [level=3] [ref=e580]
+            - paragraph [ref=e581]: Виробники ударних, розвідувальних та логістичних безпілотних систем усіх класів
+        - generic [ref=e582]:
+          - img [ref=e584]
+          - generic [ref=e590]:
+            - heading "РЕБ / EW системи" [level=3] [ref=e591]
+            - paragraph [ref=e592]: Розробники засобів радіоелектронної боротьби, захисту GNSS та глушіння
+        - generic [ref=e593]:
+          - img [ref=e595]
+          - generic [ref=e598]:
+            - heading "AI / Autonomous Systems" [level=3] [ref=e599]
+            - paragraph [ref=e600]: Компанії, що розробляють системи ШІ, автономних рішень та machine vision для defence
+        - generic [ref=e601]:
+          - img [ref=e603]
+          - generic [ref=e606]:
+            - heading "Cyber / ISR / Navigation" [level=3] [ref=e607]
+            - paragraph [ref=e608]: Рішення у сфері кібербезпеки, розвідки, спостереження та навігаційних технологій
+        - generic [ref=e609]:
+          - img [ref=e611]
+          - generic [ref=e622]:
+            - heading "Sensors / Components" [level=3] [ref=e623]
+            - paragraph [ref=e624]: Виробники датчиків, компонентів та рішень у сфері advanced manufacturing
+        - generic [ref=e625]:
+          - img [ref=e627]
+          - generic [ref=e629]:
+            - heading "Бойова валідація" [level=3] [ref=e630]
+            - paragraph [ref=e631]: Компанії з пілотами, контрактами або підтвердженим тестуванням від Сил оборони
+        - generic [ref=e632]:
+          - img [ref=e634]
+          - generic [ref=e637]:
+            - heading "EU / UK / US вихід" [level=3] [ref=e638]
+            - paragraph [ref=e639]: Scale-up компанії, що готуються до міжнародного ринку та залучення іноземного капіталу
+    - generic [ref=e642]:
+      - generic [ref=e643]:
+        - generic [ref=e644]: Що отримує клієнт
+        - heading "Конкретний результат, а не загальні поради" [level=2] [ref=e645]
+        - paragraph [ref=e646]: Кожен наш проєкт завершується набором матеріалів, якими команда може одразу користуватися.
+      - generic [ref=e647]:
+        - generic [ref=e648]:
+          - img [ref=e649]
+          - generic [ref=e652]:
+            - heading "Персональна карта фінансування" [level=3] [ref=e653]
+            - paragraph [ref=e654]: Конкретний перелік програм, що підходять вашій компанії з урахуванням стадії, технології та структури.
+        - generic [ref=e655]:
+          - img [ref=e656]
+          - generic [ref=e659]:
+            - heading "Пріоритизовані програми" [level=3] [ref=e660]
+            - paragraph [ref=e661]: Scoring matrix — які програми подавати першими, що має найвищий шанс успіху та найменші ризики.
+        - generic [ref=e662]:
+          - img [ref=e663]
+          - generic [ref=e666]:
+            - heading "Список дедлайнів і вікон подачі" [level=3] [ref=e667]
+            - paragraph [ref=e668]: Повний календар дедлайнів по всіх актуальних програмах з нагадуваннями та подіями.
+        - generic [ref=e669]:
+          - img [ref=e670]
+          - generic [ref=e673]:
+            - heading "Перелік необхідних документів" [level=3] [ref=e674]
+            - paragraph [ref=e675]: Точний список того, що потрібно підготувати для кожної програми — без зайвого.
+        - generic [ref=e676]:
+          - img [ref=e677]
+          - generic [ref=e680]:
+            - heading "Рекомендації щодо структури" [level=3] [ref=e681]
+            - paragraph [ref=e682]: Чи потрібна EU / UK / US entity, Defence City, або достатньо поточної структури — обґрунтована відповідь.
+        - generic [ref=e683]:
+          - img [ref=e684]
+          - generic [ref=e687]:
+            - heading "Investor-ready матеріали" [level=3] [ref=e688]
+            - paragraph [ref=e689]: Pitch deck, financial model, investor memo та executive summary, адаптовані під конкретну аудиторію.
+        - generic [ref=e690]:
+          - img [ref=e691]
+          - generic [ref=e694]:
+            - heading "Готовий data room" [level=3] [ref=e695]
+            - paragraph [ref=e696]: Структурований пакет документів, що відповідає стандартам VC due diligence та грантових перевірок.
+        - generic [ref=e697]:
+          - img [ref=e698]
+          - generic [ref=e701]:
+            - heading "Зниження ризику помилкової подачі" [level=3] [ref=e702]
+            - paragraph [ref=e703]: Ми перевіряємо відповідність вимогам до того, як компанія витратить ресурси на підготовку.
+        - generic [ref=e704]:
+          - img [ref=e705]
+          - generic [ref=e708]:
+            - heading "Економія часу команди" [level=3] [ref=e709]
+            - paragraph [ref=e710]: Замість місяців самостійного дослідження — структурований результат за тижні.
+    - generic [ref=e713]:
+      - generic [ref=e714]:
+        - generic [ref=e715]: Чому UKRLAW / УКРГОСКАПІТАЛ
+        - heading "Системний підхід на перетині права, фінансів та оборонних технологій" [level=2] [ref=e716]
+        - paragraph [ref=e717]: Ми не підбираємо одну програму і не складаємо одну заявку. Ми аналізуємо повну картину фінансових можливостей та допомагаємо компанії пройти шлях від першої діагностики до закритого раунду.
+      - generic [ref=e718]:
+        - generic [ref=e719]:
+          - img [ref=e721]
+          - heading "Перетин права, фінансів і грантів" [level=3] [ref=e725]
+          - paragraph [ref=e726]: Ми не просто юристи і не просто фінансові консультанти. Ми працюємо на перетині корпоративного права, грантового менеджменту та інвестиційного структурування.
+        - generic [ref=e727]:
+          - img [ref=e729]
+          - heading "Розуміємо defence-tech landscape" [level=3] [ref=e731]
+          - paragraph [ref=e732]: Ми знаємо Brave1, Defence City, DOT-Chain, EDIP, EDF, DIANA та US-треки не з брошур — ми аналізуємо їх вимоги системно та регулярно.
+        - generic [ref=e733]:
+          - img [ref=e735]
+          - heading "Аналізуємо сумісність програм" [level=3] [ref=e739]
+          - paragraph [ref=e740]: Одна з наших ключових компетенцій — знайти комбінації, які підсилюють одна одну, та уникнути тих, що конфліктують між собою.
+        - generic [ref=e741]:
+          - img [ref=e743]
+          - heading "Готуємо матеріали, а не просто консультуємо" [level=3] [ref=e746]
+          - paragraph [ref=e747]: "Після роботи з нами у клієнта залишаються конкретні документи: карта, roadmap, pitch deck, data room, заявки. Не тільки слова."
+        - generic [ref=e748]:
+          - img [ref=e750]
+          - heading "Будуємо pipeline, а не одну заявку" [level=3] [ref=e753]
+          - paragraph [ref=e754]: Наш підхід — системний. Ми допомагаємо збудувати 12-місячний pipeline, де кожна заявка або переговори пов'язані між собою логічно.
+      - paragraph [ref=e756]: Ми не гарантуємо отримання грантів або інвестицій — жоден консультант не може цього гарантувати. Ми допомагаємо оцінити можливості, підготувати дорожню карту, підвищити готовність компанії до залучення капіталу та супроводжуємо процес на кожному кроці.
+    - generic [ref=e759]:
+      - generic [ref=e760]:
+        - generic [ref=e761]: Почати роботу
+        - heading "Отримайте персональну карту фінансування" [level=2] [ref=e762]
+        - paragraph [ref=e763]: Заповніть форму — ми зв'яжемося з вами протягом одного робочого дня та запропонуємо формат першого кроку.
+      - generic [ref=e765]:
+        - generic [ref=e766]:
+          - generic [ref=e767]:
+            - generic [ref=e768]: Ім'я *
+            - textbox "Ім'я *" [ref=e769]:
+              - /placeholder: Ваше ім'я
+          - generic [ref=e770]:
+            - generic [ref=e771]: Компанія *
+            - textbox "Компанія *" [ref=e772]:
+              - /placeholder: Назва компанії
+        - generic [ref=e773]:
+          - generic [ref=e774]:
+            - generic [ref=e775]: Сфера діяльності *
+            - combobox "Сфера діяльності *" [ref=e776] [cursor=pointer]:
+              - option "Оберіть напрям" [selected]
+              - option "БПЛА / дрони"
+              - option "РЕБ / EW системи"
+              - option "AI / autonomous systems"
+              - option "Кібербезпека / ISR"
+              - option "Сенсори / компоненти"
+              - option "Ракетні технології"
+              - option "Розмінування / SHORAD"
+              - option "Dual-use / Civil-military"
+              - option "Інше"
+          - generic [ref=e777]:
+            - generic [ref=e778]: Стадія проєкту *
+            - combobox "Стадія проєкту *" [ref=e779] [cursor=pointer]:
+              - option "Оберіть стадію" [selected]
+              - option "Ідея / Pre-seed"
+              - option "MVP / R&D"
+              - option "Пілот / перші продажі"
+              - option "Серійне виробництво"
+              - option "Scale-up / зростання"
+        - generic [ref=e780]:
+          - generic [ref=e781]: Наявність Brave1 / МО / Сили оборони validation
+          - textbox "Наявність Brave1 / МО / Сили оборони validation" [ref=e782]:
+            - /placeholder: Є Brave1 грант / є контракт з МО / є бойовий пілот / немає
+        - generic [ref=e783]:
+          - generic [ref=e784]: Email / Телефон / Telegram *
+          - textbox "email@company.ua або @telegram" [ref=e785]
+        - generic [ref=e786]:
+          - generic [ref=e787]: Коментар / що шукаєте
+          - textbox "Коментар / що шукаєте" [ref=e788]:
+            - /placeholder: "Опишіть коротко вашу компанію та що саме вас цікавить: гранти, інвестиції, структура, конкретна програма тощо"
+        - button "Надіслати заявку" [ref=e789] [cursor=pointer]:
+          - img [ref=e790]
+          - text: Надіслати заявку
+        - paragraph [ref=e793]: Ваші дані конфіденційні. Ми відповідаємо протягом одного робочого дня.
+    - generic [ref=e796]:
+      - generic [ref=e797]:
+        - generic [ref=e798]: FAQ
+        - heading "Часті запитання" [level=2] [ref=e799]
+        - paragraph [ref=e800]: Якщо ваше питання не знайшло відповіді — напишіть нам напряму.
+      - generic [ref=e801]:
+        - button "Чи гарантуєте ви отримання гранту або інвестицій?" [ref=e803] [cursor=pointer]:
+          - generic [ref=e804]: Чи гарантуєте ви отримання гранту або інвестицій?
+          - img [ref=e806]
+        - button "Чи можна подаватися на EU-програми без компанії в ЄС?" [ref=e809] [cursor=pointer]:
+          - generic [ref=e810]: Чи можна подаватися на EU-програми без компанії в ЄС?
+          - img [ref=e812]
+        - button "Що робити, якщо компанія тільки на ранній стадії?" [ref=e815] [cursor=pointer]:
+          - generic [ref=e816]: Що робити, якщо компанія тільки на ранній стадії?
+          - img [ref=e818]
+        - button "Чи працюєте ви з dual-use проєктами?" [ref=e821] [cursor=pointer]:
+          - generic [ref=e822]: Чи працюєте ви з dual-use проєктами?
+          - img [ref=e824]
+        - button "Скільки часу займає Investment Mapping (Tier 1)?" [ref=e827] [cursor=pointer]:
+          - generic [ref=e828]: Скільки часу займає Investment Mapping (Tier 1)?
+          - img [ref=e830]
+        - button "Чи допомагаєте з підготовкою pitch deck та фінансової моделі?" [ref=e833] [cursor=pointer]:
+          - generic [ref=e834]: Чи допомагаєте з підготовкою pitch deck та фінансової моделі?
+          - img [ref=e836]
+        - button "Чи супроводжуєте ви переговори з інвесторами та фондами?" [ref=e839] [cursor=pointer]:
+          - generic [ref=e840]: Чи супроводжуєте ви переговори з інвесторами та фондами?
+          - img [ref=e842]
+        - button "Чи допомагаєте ви з реєстрацією або роботою в Defence City?" [ref=e845] [cursor=pointer]:
+          - generic [ref=e846]: Чи допомагаєте ви з реєстрацією або роботою в Defence City?
+          - img [ref=e848]
+  - contentinfo [ref=e850]:
+    - generic [ref=e851]:
+      - generic [ref=e852]:
+        - generic [ref=e853]:
+          - generic [ref=e854]:
+            - img [ref=e856]
+            - generic [ref=e858]:
+              - generic [ref=e859]: UKRLAW
+              - generic [ref=e860]: УКРГОСКАПІТАЛ
+          - paragraph [ref=e861]: Юридично-фінансовий консалтинг для українських defence-tech та dual-use компаній. Гранти, інвестиції, міжнародне структурування.
+          - generic [ref=e862]:
+            - link "info@ukrlaw.ua" [ref=e863] [cursor=pointer]:
+              - /url: mailto:info@ukrlaw.ua
+              - img [ref=e864]
+              - text: info@ukrlaw.ua
+            - link "@ukrlaw_capital" [ref=e867] [cursor=pointer]:
+              - /url: https://t.me/ukrlaw
+              - img [ref=e868]
+              - text: "@ukrlaw_capital"
+        - generic [ref=e870]:
+          - heading "Послуги" [level=4] [ref=e871]
+          - list [ref=e872]:
+            - listitem [ref=e873]:
+              - link "Investment & Grant Mapping" [ref=e874] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e875]:
+              - link "Capital Raise Preparation" [ref=e876] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e877]:
+              - link "International Structuring" [ref=e878] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e879]:
+              - link "Спеціалізовані пакети" [ref=e880] [cursor=pointer]:
+                - /url: "#packages"
+        - generic [ref=e881]:
+          - heading "Програми" [level=4] [ref=e882]
+          - list [ref=e883]:
+            - listitem [ref=e884]:
+              - link "Brave1" [ref=e885] [cursor=pointer]:
+                - /url: "#opportunities"
+            - listitem [ref=e886]:
+              - link "EDIP / USI" [ref=e887] [cursor=pointer]:
+                - /url: "#opportunities"
+            - listitem [ref=e888]:
+              - link "NATO DIANA / NIF" [ref=e889] [cursor=pointer]:
+                - /url: "#opportunities"
+            - listitem [ref=e890]:
+              - link "DFC URIF / UK IFU" [ref=e891] [cursor=pointer]:
+                - /url: "#opportunities"
+        - generic [ref=e892]:
+          - heading "Компанія" [level=4] [ref=e893]
+          - list [ref=e894]:
+            - listitem [ref=e895]:
+              - link "Наш підхід" [ref=e896] [cursor=pointer]:
+                - /url: "#approach"
+            - listitem [ref=e897]:
+              - link "Для кого" [ref=e898] [cursor=pointer]:
+                - /url: "#for-whom"
+            - listitem [ref=e899]:
+              - link "FAQ" [ref=e900] [cursor=pointer]:
+                - /url: "#faq"
+            - listitem [ref=e901]:
+              - link "Отримати консультацію" [ref=e902] [cursor=pointer]:
+                - /url: "#contact"
+      - generic [ref=e904]:
+        - paragraph [ref=e905]: © 2026 ТОВ «УКРГОСКАПІТАЛ» / UKRLAW. Всі права захищені.
+        - paragraph [ref=e906]: Матеріали на цьому сайті мають інформаційний характер і не є офертою, юридичною порадою або гарантією отримання фінансування.
