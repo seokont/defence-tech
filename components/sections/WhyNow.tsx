@@ -44,9 +44,9 @@ export default function WhyNow() {
   return (
     <section
       id="why-now"
+      className="section"
       style={{
         backgroundColor: "#0F172A",
-        padding: "6rem 0",
         position: "relative",
         overflow: "hidden",
       }}
@@ -116,7 +116,7 @@ export default function WhyNow() {
           data-stagger
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))",
             gap: "1.5rem",
           }}
         >

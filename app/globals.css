@@ -36,6 +36,55 @@ body {
   color: #0F172A;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* ── Section utility ─────────────────────────────── */
+.section {
+  padding: 6rem 0;
+}
+
+/* ── Mobile responsive ───────────────────────────── */
+@media (max-width: 767px) {
+  .section {
+    padding: 3.5rem 0;
+  }
+
+  /* Hero CTAs — full width column */
+  .hero-ctas {
+    flex-direction: column;
+  }
+  .hero-ctas > a {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  /* Hero stats — 2×2 grid */
+  .hero-stats {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem !important;
+  }
+
+  /* Form card padding */
+  .form-card {
+    padding: 1.25rem !important;
+  }
+
+  /* Approach step card */
+  .step-card {
+    gap: 1rem !important;
+    padding: 1.25rem !important;
+  }
+
+  /* Scroll to top — smaller on mobile */
+  .scroll-to-top {
+    bottom: 1.25rem !important;
+    right: 1.25rem !important;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {

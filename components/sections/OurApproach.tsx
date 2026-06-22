@@ -36,7 +36,8 @@ export default function OurApproach() {
   return (
     <section
       id="approach"
-      style={{ backgroundColor: "#F8FAFC", padding: "6rem 0" }}
+      className="section"
+      style={{ backgroundColor: "#F8FAFC" }}
     >
       <div className="container">
         <div data-reveal style={{ textAlign: "center", marginBottom: "4rem" }}>
@@ -88,6 +89,7 @@ export default function OurApproach() {
           {steps.map((step, i) => (
             <div
               key={step.num}
+              className="step-card"
               style={{
                 display: "grid",
                 gridTemplateColumns: "auto 1fr",

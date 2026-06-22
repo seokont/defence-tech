@@ -44,9 +44,9 @@ export default function Problem() {
   return (
     <section
       id="problem"
+      className="section"
       style={{
         backgroundColor: "#F8FAFC",
-        padding: "6rem 0",
       }}
     >
       <div className="container">
@@ -100,7 +100,7 @@ export default function Problem() {
           data-stagger
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))",
             gap: "1.25rem",
           }}
         >

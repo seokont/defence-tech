@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ScrollReveal from "@/components/ui/scroll-reveal";
+import ScrollToTop from "@/components/ui/scroll-to-top";
 
 export const metadata: Metadata = {
   title: "Інвестиції та гранти для defence-tech компаній | UKRLAW / УКРГОСКАПІТАЛ",
@@ -50,6 +51,7 @@ export default function RootLayout({
       <body>
         {children}
         <ScrollReveal />
+        <ScrollToTop />
       </body>
     </html>
   );

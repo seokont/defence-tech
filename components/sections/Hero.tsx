@@ -271,7 +271,7 @@ export default function Hero() {
         </p>
 
         {/* CTA buttons */}
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", marginBottom: "4rem" }}>
+        <div className="hero-ctas" style={{ display: "flex", flexWrap: "wrap", gap: "1rem", marginBottom: "4rem" }}>
           <a
             href="#contact"
             style={{
@@ -337,6 +337,7 @@ export default function Hero() {
 
         {/* Stats row */}
         <div
+          className="hero-stats"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",

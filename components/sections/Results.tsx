@@ -44,7 +44,8 @@ export default function Results() {
   return (
     <section
       id="results"
-      style={{ backgroundColor: "#F8FAFC", padding: "6rem 0" }}
+      className="section"
+      style={{ backgroundColor: "#F8FAFC" }}
     >
       <div className="container">
         <div
@@ -104,7 +105,7 @@ export default function Results() {
             data-stagger
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fill, minmax(min(280px, 100%), 1fr))",
               gap: "1rem",
             }}
           >

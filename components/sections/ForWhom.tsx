@@ -48,7 +48,8 @@ export default function ForWhom() {
   return (
     <section
       id="for-whom"
-      style={{ backgroundColor: "#0F172A", padding: "6rem 0" }}
+      className="section"
+      style={{ backgroundColor: "#0F172A" }}
     >
       <div className="container">
         <div data-reveal style={{ textAlign: "center", marginBottom: "4rem" }}>
@@ -100,7 +101,7 @@ export default function ForWhom() {
           data-stagger
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fill, minmax(min(240px, 100%), 1fr))",
             gap: "1rem",
           }}
         >

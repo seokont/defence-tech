@@ -63,7 +63,8 @@ export default function Services() {
   return (
     <section
       id="services"
-      style={{ backgroundColor: "#0F172A", padding: "6rem 0" }}
+      className="section"
+      style={{ backgroundColor: "#0F172A" }}
     >
       <div className="container">
         <div data-reveal style={{ textAlign: "center", marginBottom: "4rem" }}>
@@ -115,7 +116,7 @@ export default function Services() {
           data-stagger
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))",
             gap: "1.5rem",
             alignItems: "stretch",
           }}

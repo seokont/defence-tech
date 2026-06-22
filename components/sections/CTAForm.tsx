@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { Send, CheckCircle } from "lucide-react";
 
 const stages = [
@@ -24,6 +25,7 @@ const activities = [
 ];
 
 export default function CTAForm() {
+  const router = useRouter();
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -54,7 +56,7 @@ export default function CTAForm() {
         body: JSON.stringify(form),
       });
       if (!res.ok) throw new Error("server");
-      setSubmitted(true);
+      router.push("/thank-you");
     } catch {
       setError("Не вдалося надіслати заявку. Спробуйте ще раз або напишіть нам напряму.");
     } finally {
@@ -89,9 +91,9 @@ export default function CTAForm() {
   return (
     <section
       id="contact"
+      className="section"
       style={{
         background: "linear-gradient(160deg, #0C1A30 0%, #0F172A 100%)",
-        padding: "6rem 0",
         position: "relative",
         overflow: "hidden",
       }}
@@ -160,6 +162,7 @@ export default function CTAForm() {
           {/* Form card */}
           <div
             data-reveal
+            className="form-card"
             style={{
               background: "rgba(255,255,255,0.05)",
               border: "1px solid rgba(201,168,76,0.2)",
@@ -197,7 +200,7 @@ export default function CTAForm() {
                 <div
                   style={{
                     display: "grid",
-                    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+                    gridTemplateColumns: "repeat(auto-fit, minmax(min(250px, 100%), 1fr))",
                     gap: "1.25rem",
                     marginBottom: "1.25rem",
                   }}
@@ -256,7 +259,7 @@ export default function CTAForm() {
                 <div
                   style={{
                     display: "grid",
-                    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+                    gridTemplateColumns: "repeat(auto-fit, minmax(min(250px, 100%), 1fr))",
                     gap: "1.25rem",
                     marginBottom: "1.25rem",
                   }}

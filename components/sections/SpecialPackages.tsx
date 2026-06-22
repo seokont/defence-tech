@@ -50,7 +50,8 @@ export default function SpecialPackages() {
   return (
     <section
       id="packages"
-      style={{ backgroundColor: "#F8FAFC", padding: "6rem 0" }}
+      className="section"
+      style={{ backgroundColor: "#F8FAFC" }}
     >
       <div className="container">
         <div data-reveal style={{ textAlign: "center", marginBottom: "4rem" }}>
@@ -102,7 +103,7 @@ export default function SpecialPackages() {
           data-stagger
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(290px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fill, minmax(min(290px, 100%), 1fr))",
             gap: "1.25rem",
           }}
         >

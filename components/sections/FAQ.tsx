@@ -44,7 +44,8 @@ export default function FAQ() {
   return (
     <section
       id="faq"
-      style={{ backgroundColor: "#F8FAFC", padding: "6rem 0" }}
+      className="section"
+      style={{ backgroundColor: "#F8FAFC" }}
     >
       <div className="container">
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>

@@ -33,7 +33,8 @@ export default function WhyUs() {
   return (
     <section
       id="why-us"
-      style={{ backgroundColor: "#0F172A", padding: "6rem 0" }}
+      className="section"
+      style={{ backgroundColor: "#0F172A" }}
     >
       <div className="container">
         <div
@@ -94,7 +95,7 @@ export default function WhyUs() {
             data-stagger
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))",
               gap: "1.25rem",
             }}
           >
