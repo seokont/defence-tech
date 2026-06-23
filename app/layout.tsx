@@ -63,6 +63,20 @@ export default function RootLayout({
           gtag('js', new Date());
           gtag('config', 'AW-18266333649');
         `}</Script>
+        <Script id="gtag-conversion" strategy="afterInteractive">{`
+          function gtag_report_conversion(url) {
+            var callback = function () {
+              if (typeof(url) != 'undefined') { window.location = url; }
+            };
+            gtag('event', 'conversion', {
+              'send_to': 'AW-18266333649/OSLNCLXPq8QcENHDiIZE',
+              'value': 1.0,
+              'currency': 'UAH',
+              'event_callback': callback
+            });
+            return false;
+          }
+        `}</Script>
       </body>
     </html>
   );

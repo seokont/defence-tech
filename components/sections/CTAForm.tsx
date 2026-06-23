@@ -56,6 +56,8 @@ export default function CTAForm() {
         body: JSON.stringify(form),
       });
       if (!res.ok) throw new Error("server");
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (window as any).gtag_report_conversion?.();
       router.push("/thank-you");
     } catch {
       setError("Не вдалося надіслати заявку. Спробуйте ще раз або напишіть нам напряму.");
