@@ -48,7 +48,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="uk">
-      <body>
+      <body suppressHydrationWarning>
         {children}
         <ScrollReveal />
         <ScrollToTop />
