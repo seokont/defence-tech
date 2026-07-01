@@ -13,7 +13,7 @@ Show two small numbers in the site footer: unique visitors today (UTC calendar d
 
 ## Storage
 
-`data/visits.json` (gitignored), shape:
+`.visitor-stats/visits.json` (already gitignored via the existing `.visitor-stats/` entry in `.gitignore`), shape:
 
 ```json
 {
@@ -38,7 +38,7 @@ Single route: `app/api/visits/route.ts`
 
 - `POST /api/visits`
   - Reads `vid` cookie; if absent, generates one and sets it on the response.
-  - Calls `recordVisit(vid)` (adds `vid` to today's set in `data/visits.json`, dedup is automatic via set semantics, then prunes days older than 7).
+  - Calls `recordVisit(vid)` (adds `vid` to today's set in `.visitor-stats/visits.json`, dedup is automatic via set semantics, then prunes days older than 7).
   - Calls `getStats()` and returns `{ today: number, last7d: number }` as JSON.
   - `today` = size of today's set.
   - `last7d` = size of the union of visitor ids across the last 7 day-buckets (a repeat visitor across multiple days counts once).
@@ -63,15 +63,15 @@ No separate GET endpoint — recording and reading happen in the same round trip
 ## Error handling
 
 - Any failure in `recordVisit`/`getStats` (e.g. disk write error) is caught in the route handler; on error the route still returns `{ today: 0, last7d: 0 }` with a 200 so the frontend never has to special-case a failed request beyond "don't render if data looks absent" — but since we always return valid shape, the widget always renders once the fetch resolves.
-- Corrupt/unparseable `data/visits.json` is treated as empty data (start fresh) rather than throwing.
+- Corrupt/unparseable `.visitor-stats/visits.json` is treated as empty data (start fresh) rather than throwing.
 
 ## Testing plan
 
 Manual verification (no existing test harness in this repo — `npm test` is a placeholder):
 
-1. `npm run dev`, load the site, confirm `data/visits.json` is created with today's date and a vid.
+1. `npm run dev`, load the site, confirm `.visitor-stats/visits.json` is created with today's date and a vid.
 2. Reload the page multiple times in the same browser — confirm `today` count does not increase (same `vid` cookie reused).
 3. Clear cookies (or use a private window) and load again — confirm `today` increments by 1.
-4. Manually edit `data/visits.json` to add a fabricated date 8 days in the past with some vids, hit the endpoint again, confirm that date is pruned from the file and excluded from `last7d`.
+4. Manually edit `.visitor-stats/visits.json` to add a fabricated date 8 days in the past with some vids, hit the endpoint again, confirm that date is pruned from the file and excluded from `last7d`.
 5. Manually add overlapping vids across two different days within the 7-day window, confirm `last7d` reflects the deduplicated union, not the sum.
 6. Visually confirm the footer widget renders correctly on both `/` and `/thank-you`, matches the existing dark/gold styling, and doesn't shift layout while the fetch is in flight.
