@@ -1,5 +1,6 @@
 "use client";
-import { Mail, MessageSquare } from "lucide-react";
+import { useEffect, useState } from "react";
+import { Mail, MessageSquare, Eye, Users } from "lucide-react";
 import Image from "next/image";
 
 const footerLinks = [
@@ -33,6 +34,19 @@ const footerLinks = [
 ];
 
 export default function Footer() {
+  const [visitStats, setVisitStats] = useState<{ today: number; last7d: number } | null>(null);
+
+  useEffect(() => {
+    fetch("/api/visits", { method: "POST" })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data && typeof data.today === "number" && typeof data.last7d === "number") {
+          setVisitStats(data);
+        }
+      })
+      .catch(() => {});
+  }, []);
+
   return (
     <footer
       style={{
@@ -208,6 +222,30 @@ export default function Footer() {
               Матеріали на цьому сайті мають інформаційний характер і не є офертою, юридичною порадою або гарантією отримання фінансування.
             </p>
           </div>
+          {visitStats && (
+            <div style={{ display: "flex", justifyContent: "center", marginTop: "1.25rem" }}>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "0.625rem",
+                  padding: "0.4rem 0.9rem",
+                  borderRadius: "999px",
+                  backgroundColor: "rgba(255,255,255,0.03)",
+                  border: "1px solid rgba(201,168,76,0.15)",
+                  fontSize: "0.72rem",
+                  fontFamily: "Lato, sans-serif",
+                  color: "rgba(255,255,255,0.4)",
+                }}
+              >
+                <Eye size={13} color="#C9A84C" />
+                <span>{visitStats.today} сьогодні</span>
+                <span style={{ color: "#C9A84C" }}>•</span>
+                <Users size={13} color="#C9A84C" />
+                <span>{visitStats.last7d} за 7 днів</span>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </footer>
